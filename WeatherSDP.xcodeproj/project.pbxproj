@@ -6,17 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3982953C2EFB103E00936214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398295382EFB103E00936214 /* Assets.xcassets */; };
+		3982953D2EFB103E00936214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295392EFB103E00936214 /* ContentView.swift */; };
+		3982955E2EFB28CA00936214 /* DayWeatherRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295582EFB28CA00936214 /* DayWeatherRawView.swift */; };
+		3982955F2EFB28CA00936214 /* HourWeatherRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295592EFB28CA00936214 /* HourWeatherRawView.swift */; };
+		398295602EFB28CA00936214 /* HourWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982955A2EFB28CA00936214 /* HourWeatherView.swift */; };
+		398295612EFB28CA00936214 /* IconWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982955B2EFB28CA00936214 /* IconWeatherView.swift */; };
+		398295622EFB28CA00936214 /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982955C2EFB28CA00936214 /* TodayWeatherView.swift */; };
+		398295642EFB2A7B00936214 /* DayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295632EFB2A7B00936214 /* DayWeatherView.swift */; };
+		398295692EFB2B3B00936214 /* IconWeatherEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295672EFB2B3B00936214 /* IconWeatherEnum.swift */; };
+		3982956C2EFB2B3E00936214 /* WeatherSDPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982956A2EFB2B3E00936214 /* WeatherSDPApp.swift */; };
+		3982956E2EFB2B4E00936214 /* LiquidGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3982956D2EFB2B4E00936214 /* LiquidGlassModifier.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3982952A2EEB518600936214 /* WeatherSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398295382EFB103E00936214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		398295392EFB103E00936214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		398295582EFB28CA00936214 /* DayWeatherRawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherRawView.swift; sourceTree = "<group>"; };
+		398295592EFB28CA00936214 /* HourWeatherRawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourWeatherRawView.swift; sourceTree = "<group>"; };
+		3982955A2EFB28CA00936214 /* HourWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourWeatherView.swift; sourceTree = "<group>"; };
+		3982955B2EFB28CA00936214 /* IconWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconWeatherView.swift; sourceTree = "<group>"; };
+		3982955C2EFB28CA00936214 /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
+		398295632EFB2A7B00936214 /* DayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherView.swift; sourceTree = "<group>"; };
+		398295672EFB2B3B00936214 /* IconWeatherEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconWeatherEnum.swift; sourceTree = "<group>"; };
+		3982956A2EFB2B3E00936214 /* WeatherSDPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSDPApp.swift; sourceTree = "<group>"; };
+		3982956D2EFB2B4E00936214 /* LiquidGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3982952C2EEB518600936214 /* WeatherSDP */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeatherSDP;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		398295272EEB518600936214 /* Frameworks */ = {
@@ -32,7 +49,7 @@
 		398295212EEB518600936214 = {
 			isa = PBXGroup;
 			children = (
-				3982952C2EEB518600936214 /* WeatherSDP */,
+				3982953B2EFB103E00936214 /* WeatherSDP */,
 				3982952B2EEB518600936214 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,56 @@
 				3982952A2EEB518600936214 /* WeatherSDP.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3982953B2EFB103E00936214 /* WeatherSDP */ = {
+			isa = PBXGroup;
+			children = (
+				398295392EFB103E00936214 /* ContentView.swift */,
+				3982955D2EFB28CA00936214 /* Components */,
+				398295662EFB2B3800936214 /* Modifiers */,
+				398295682EFB2B3B00936214 /* Enum */,
+				3982956B2EFB2B3E00936214 /* System */,
+				398295382EFB103E00936214 /* Assets.xcassets */,
+			);
+			path = WeatherSDP;
+			sourceTree = "<group>";
+		};
+		3982955D2EFB28CA00936214 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				398295632EFB2A7B00936214 /* DayWeatherView.swift */,
+				398295582EFB28CA00936214 /* DayWeatherRawView.swift */,
+				3982955A2EFB28CA00936214 /* HourWeatherView.swift */,
+				398295592EFB28CA00936214 /* HourWeatherRawView.swift */,
+				3982955B2EFB28CA00936214 /* IconWeatherView.swift */,
+				3982955C2EFB28CA00936214 /* TodayWeatherView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		398295662EFB2B3800936214 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3982956D2EFB2B4E00936214 /* LiquidGlassModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		398295682EFB2B3B00936214 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				398295672EFB2B3B00936214 /* IconWeatherEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		3982956B2EFB2B3E00936214 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				3982956A2EFB2B3E00936214 /* WeatherSDPApp.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +126,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3982952C2EEB518600936214 /* WeatherSDP */,
 			);
 			name = WeatherSDP;
 			packageProductDependencies = (
@@ -109,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3982953C2EFB103E00936214 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3982953D2EFB103E00936214 /* ContentView.swift in Sources */,
+				398295642EFB2A7B00936214 /* DayWeatherView.swift in Sources */,
+				3982955E2EFB28CA00936214 /* DayWeatherRawView.swift in Sources */,
+				3982955F2EFB28CA00936214 /* HourWeatherRawView.swift in Sources */,
+				398295602EFB28CA00936214 /* HourWeatherView.swift in Sources */,
+				3982956E2EFB2B4E00936214 /* LiquidGlassModifier.swift in Sources */,
+				398295612EFB28CA00936214 /* IconWeatherView.swift in Sources */,
+				3982956C2EFB2B3E00936214 /* WeatherSDPApp.swift in Sources */,
+				398295622EFB28CA00936214 /* TodayWeatherView.swift in Sources */,
+				398295692EFB2B3B00936214 /* IconWeatherEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
