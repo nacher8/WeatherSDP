@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391988882F1E44790096495A /* WeatherSDPIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 391988872F1E44790096495A /* WeatherSDPIcon.icon */; };
 		3982953C2EFB103E00936214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398295382EFB103E00936214 /* Assets.xcassets */; };
 		3982953D2EFB103E00936214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295392EFB103E00936214 /* ContentView.swift */; };
 		3982955E2EFB28CA00936214 /* DayWeatherRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398295582EFB28CA00936214 /* DayWeatherRawView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391988872F1E44790096495A /* WeatherSDPIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = WeatherSDPIcon.icon; sourceTree = "<group>"; };
 		3982952A2EEB518600936214 /* WeatherSDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398295382EFB103E00936214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		398295392EFB103E00936214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				398295682EFB2B3B00936214 /* Enum */,
 				3982956B2EFB2B3E00936214 /* System */,
 				398295382EFB103E00936214 /* Assets.xcassets */,
+				391988872F1E44790096495A /* WeatherSDPIcon.icon */,
 			);
 			path = WeatherSDP;
 			sourceTree = "<group>";
@@ -142,7 +145,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 2610;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					398295292EEB518600936214 = {
 						CreatedOnToolsVersion = 26.1.1;
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391988882F1E44790096495A /* WeatherSDPIcon.icon in Resources */,
 				3982953C2EFB103E00936214 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +263,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -316,6 +321,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -324,7 +330,7 @@
 		398295362EEB518700936214 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WeatherSDPIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -356,7 +362,7 @@
 		398295372EEB518700936214 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WeatherSDPIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
