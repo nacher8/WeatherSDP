@@ -9,6 +9,7 @@ WeatherSDP is an interface to a wheather app, this app was built with SwiftUI.
 ### Prerequisites
 - **iOS 26+**
 - **Xcode 26+**
+- **Swift 6+**
 
 ### Installation
 1. Clone the repository:
